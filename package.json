@@ -1,0 +1,12 @@
+{
+  "name": "tecnoprog-web",
+  "version": "1.0.0",
+  "description": "Static host for the compiled Tecnoprog Flutter web app.",
+  "private": true,
+  "scripts": {
+    "start": "serve -s public -l tcp://0.0.0.0:$PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.5"
+  }
+}
